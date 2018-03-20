@@ -40,7 +40,7 @@ $(document).on("click",".start", function(){
     let correct = 0;
     let incorrect = 0;
     let unanswered = 5;
-    let count = 30;
+    let count = 20;
     let counter =setInterval(timer, 1000); //1000 will  run it every 1 second
 
     //varibles to store values that are displayed when either the given time is up or the player have answered all questions 
