@@ -1,0 +1,53 @@
+body{
+    background:url(C:/Users/abdis/Desktop/Trivia-Game-/assets/images/bgpic.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    max-width:960px;
+    margin:10 auto;
+    background-color:yellow;
+    padding-top:10px;
+    /* height: 100vh;
+   */
+}
+/* .mainContainer{
+    background-color:yellow;
+    height: 100vh;
+} */
+.header h1{
+    margin: 10px auto;
+    font-size: 80px;
+    font-weight: bold;
+    background-color:yellow;
+}
+.selectedAnswer{
+    margin-left: 10px;
+}
+form{
+    margin-top:10px; 
+    margin-bottom:15px;
+}
+#done{
+    background:yellow;
+    height: 50px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+#done:hover{
+    background-color: red;
+}
+#start{
+    background:orange;
+    height: 60px;
+    margin-top :150px;
+    margin-bottom :150px;
+    border:2px solid purple;
+    font-size: 40px;
+}
+
+/* h2{
+    margin:10px auto;
+} */

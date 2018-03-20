@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <!-- Reset stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Itim|Montserrat" rel="stylesheet">
+  <!-- Latest compiled and minified JavaScript for bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container" id="container"> 
+        <div class="header">
+            <h1 class="col-md-12">Totally Trivial Trivia!!!!</h1>
+        </div>
+        
+        <div class="mainContainer">
+            <div class="questions">
+                <h2 class="col-md-offset-3 col-md-9" id="timer"></h2>
+                <div class="question">
+                    <h2 class="col-md-offset-2 col-md-10">Of which country is Kington capital?</h2>
+                    <form class="col-md-offset-3 col-md-9">
+                            <input class="selectedAnswer" type="radio" name="answer1" value="Barbados" >&nbsp;&nbsp;Barbados&nbsp;&nbsp;
+                            <input class="selectedAnswer" type="radio" name="answer1" value="Lucia">&nbsp;&nbsp; Lucia&nbsp;&nbsp;
+                            <input class="selectedAnswer" type="radio" name="answer1" value="Haiti">&nbsp;&nbsp; Haiti &nbsp;&nbsp; 
+                            <input class="selectedAnswer" type="radio" name="answer1" value="Jamaica">&nbsp;&nbsp; Jamaica&nbsp;&nbsp;
+                    </form> 
+                </div>
+                <div class="question">
+                    <h2 class="col-md-offset-2 col-md-10">What is the capital city of Equador?</h2>
+                    <form class="col-md-offset-3 col-md-9">
+                            <input class="selectedAnswer" type="radio" name="answer2" value="Porto " >&nbsp;&nbsp;Porto&nbsp;&nbsp; 
+                            <input class="selectedAnswer" type="radio" name="answe2" value="Novo"> &nbsp;&nbsp;Novo&nbsp;&nbsp;
+                            <input class="selectedAnswer" type="radio" name="answer2" value="Mangua">&nbsp;&nbsp; Mangua&nbsp;&nbsp;  
+                            <input class="selectedAnswer" type="radio" name="answer2" value="Quito">&nbsp;&nbsp; Quito&nbsp;&nbsp;
+                    </form> 
+                    
+                </div>
+                <div class="question">
+                    <h2 class="col-md-offset-2 col-md-10">When did chelsea first win the primier league?</h2>
+                    <form class="col-md-offset-3 col-md-9">
+                            <input data-name= "1" class="selectedAnswer" type="radio" name="answer3" value="2006">&nbsp;&nbsp;2006&nbsp;&nbsp;
+                            <input data-name= "1" class="selectedAnswer" type="radio" name="answer3" value="2005">&nbsp;&nbsp;2005&nbsp;&nbsp;
+                            <input data-name= "1" class="selectedAnswer" type="radio" name="answer3" value="2004">&nbsp;&nbsp;2004&nbsp;&nbsp;
+                            <input data-name= "1" class="selectedAnswer" type="radio" name="answer3" value="2002">&nbsp;&nbsp;2002&nbsp;&nbsp;
+                    </form> 
+                </div>
+                <div class="question">
+                    <h2 class="col-md-offset-2 col-md-10">Who is the youngest player ever to score a primier league goal?</h2>
+                    <form class="col-md-offset-3 col-md-9">
+                            <input class="selectedAnswer" type="radio" name="answer4" value="David Beckham">&nbsp;&nbsp;David Beckham&nbsp;&nbsp;
+                            <input class="selectedAnswer" type="radio" name="answer4" value="Micheal Owen">&nbsp;&nbsp;Micheal Owen&nbsp;&nbsp;
+                            <input class="selectedAnswer" type="radio" name="answer4" value="Wayne Rooney">&nbsp;&nbsp;Wayne Rooney&nbsp;&nbsp;  
+                            <input class="selectedAnswer" type="radio" name="answer4" value="Steven Gerrard">&nbsp;&nbsp;Steven Gerrard&nbsp;&nbsp;
+                    </form> 
+                
+                </div>
+                <div class="question">
+                    <h2 class="col-md-offset-2 col-md-10">Ankara is the capital city of which country?</h2>
+                    <form class="col-md-offset-3 col-md-9">
+                            <input class="selectedAnswer" type="radio" name="answer5" value="Turkey">&nbsp;&nbsp;Turkey&nbsp;&nbsp;
+                            <input class="selectedAnswer" type="radio" name="answer5" value="Burundi">&nbsp;&nbsp;Burundi&nbsp;&nbsp;
+                            <input class="selectedAnswer" type="radio" name="answer5" value="Andorra ">&nbsp;&nbsp;Andorra&nbsp;&nbsp;  
+                            <input class="selectedAnswer" type="radio" name="answer5" value="Morocco">&nbsp;&nbsp;Morocco&nbsp;&nbsp;
+                    </form> 
+                    
+                </div>
+                <button type="button" class="sendAnswer col-md-offset-4 col-md-4" id="done">Done</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+     <!-- JQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!-- Latest compiled and minified JavaScript for bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
+    <!-- Game logic -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
